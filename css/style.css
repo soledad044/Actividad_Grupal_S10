@@ -1,0 +1,67 @@
+/* Estilo principal del área de contenido */
+main {
+  min-height: calc(100vh - 215px); 
+  padding: 20px; 
+  background-color: #f8f9fa; 
+  border-radius: 8px; 
+}
+
+/* Estilo general de contenedor */
+.container {
+  max-width: 960px; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+/* Estilo del contenedor de la lista */
+.cont {
+  overflow: auto; 
+  height: 200px; 
+  border: 1px solid #6f42c1; 
+  border-radius: 8px; 
+  background-color: #f3e8f0; 
+  padding: 10px; 
+}
+
+/* Estilo para el botón de agregar */
+.btn-primary {
+  background-color: #6f42c1; 
+  border-color: #6f42c1; 
+  color: #ffffff; 
+}
+
+.btn-primary:hover {
+  background-color: #5a2a91; 
+  border-color: #4a0072; 
+}
+
+/* Estilo para el botón de limpiar */
+.btn-outline-secondary {
+  color: #6f42c1; 
+  border-color: #6f42c1; 
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6f42c1; 
+  color: #ffffff; 
+}
+
+/* Estilo de los ítems en la lista */
+.list-group-item {
+  border: 1px solid #6f42c1; 
+  background-color: #ffffff; 
+  color: #4a0072; 
+  margin-bottom: 5px; 
+  border-radius: 4px; 
+}
+
+/* Ajustes para el ingreso de datos */
+.form-control {
+  border: 1px solid #6f42c1; 
+  border-radius: 4px; 
+}
+
+.form-control:focus {
+  border-color: #5a2a91; 
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25); 
+}
